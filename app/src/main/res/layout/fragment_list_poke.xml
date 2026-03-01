@@ -1,0 +1,74 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pokédex"
+        android:textSize="18dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/text_principal"
+        android:gravity="start"
+        />
+
+    <!-- Buscador -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/fondo_card">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/buscarPoke"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Buscar Pokémon por nombre o ID"
+            android:iconifiedByDefault="true"
+            app:queryBackground="@android:color/transparent"
+            android:background="@android:color/transparent" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Spinner de generaciones -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/fondo_card">
+
+        <Spinner
+            android:id="@+id/spinnerGen"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="8dp"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerPoke"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="8dp"/>
+
+    <!-- ProgressBar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+</LinearLayout>

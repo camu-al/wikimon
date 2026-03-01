@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- HP -->
+        <include layout="@layout/item_stat_bar"
+            android:id="@+id/statHP"/>
+
+        <!-- Attack -->
+        <include layout="@layout/item_stat_bar"
+            android:id="@+id/statAttack"/>
+
+        <!-- Defense -->
+        <include layout="@layout/item_stat_bar"
+            android:id="@+id/statDefense"/>
+
+        <!-- Sp Attack -->
+        <include layout="@layout/item_stat_bar"
+            android:id="@+id/statSpAttack"/>
+
+        <!-- Sp Defense -->
+        <include layout="@layout/item_stat_bar"
+            android:id="@+id/statSpDefense"/>
+
+        <!-- Speed -->
+        <include layout="@layout/item_stat_bar"
+            android:id="@+id/statSpeed"/>
+    </LinearLayout>
+
+</ScrollView>

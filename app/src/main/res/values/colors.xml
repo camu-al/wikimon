@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Texto -->
+    <color name="text_principal">#212121</color>
+    <color name="text_secundario">#757575</color>
+
+    <!-- Fondo -->
+    <color name="fondo">#FFFFFFFF</color>
+
+    <!-- Fondo Card -->
+    <color name="fondo_card">#FBFBFB</color>
+
+    <!-- Botones -->
+    <color name="boton_principal">#D2362F</color>
+    <color name="boton_presionado">#B71C0C</color>
+    <color name="texto_boton">#FBFBFB</color>
+
+    <!-- Menú inferior / BottomNavigation -->
+    <color name="menu_fondo">#D2362F</color>
+    <color name="menu_texto_icono">#FBFBFB</color>
+
+    <!-- Colores básicos -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

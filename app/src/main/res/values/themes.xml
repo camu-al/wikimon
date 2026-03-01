@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.PokeApi" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/boton_principal</item>
+        <item name="colorPrimaryVariant">@color/boton_presionado</item>
+        <item name="colorOnPrimary">@color/texto_boton</item>
+
+        <!-- Texto sobre el fondo -->
+        <item name="colorOnBackground">@color/text_principal</item>
+
+        <!-- Fondo principal -->
+        <item name="android:windowBackground">@color/fondo</item>
+
+        <!-- Otros atributos que quieras personalizar -->
+    </style>
+
+    <!-- Tema real de la app -->
+    <style name="Theme.PokeApi" parent="Base.Theme.PokeApi" />
+
+</resources>

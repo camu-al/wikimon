@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_Home"
+        android:title="Inicio"
+        android:icon="@drawable/outline_home_24"/>
+
+    <item
+        android:id="@+id/bottom_Busqueda"
+        android:title="Pokedex"
+        android:icon="@drawable/outline_feature_search_24"/>
+</menu>

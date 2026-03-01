@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Muisca">
+        <SwitchPreferenceCompat
+            android:key="musica"
+            android:summaryOff="No escuchar musica"
+            android:summaryOn="Escuchar musica"
+            android:title="Musica"
+            android:defaultValue="true">
+        </SwitchPreferenceCompat>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Apariencia">
+        <SwitchPreferenceCompat
+            android:key="oscuro"
+            android:summaryOff="Activar modo oscuro"
+            android:summaryOn="Desactivar modo oscuro"
+            android:title="Modo Oscuro">
+        </SwitchPreferenceCompat>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
