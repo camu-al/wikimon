@@ -67,7 +67,6 @@ graph TD
 | Herramientas | Android Studio, Git / GitHub |
 
 ---
-
 ## 👤 Contacto
 <div align="left">
   <a href="https://www.linkedin.com/in/camu-al/" target="_blank">
@@ -78,6 +77,4 @@ graph TD
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&style=flat" height="40" />
   </a>
 
-  <a href="mailto:camudeveloper@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&style=flat" height="40" />
-  </a>
+
